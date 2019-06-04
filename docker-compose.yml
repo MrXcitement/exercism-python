@@ -1,7 +1,7 @@
 version: "3"
 services:
   exercism:
-    image: mrbarker/exercism-python:0.1.1
+    image: mrbarker/exercism-python:latest
     volumes:
       - ~/.gitconfig:/root/.gitconfig
       - ~/.vimrc:/root/.vimrc
